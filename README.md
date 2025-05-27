@@ -1,7 +1,9 @@
 🎬 VideoVerse: YouTube Video Summarization using NLP
+
 VideoVerse is a full-stack NLP application that takes a YouTube video URL, transcribes its audio using Whisper, and generates a concise abstractive summary using transformer-based models. Built with a modern React + Flask architecture, this project showcases how natural language processing can be applied to real-world video content.
 
 📌 Features
+
 🔗 Accepts any YouTube video URL
 🎙️ Transcribes speech to text using Whisper
 ✂️ Preprocesses and chunks long transcripts
@@ -25,9 +27,6 @@ Node.js (v18+ recommended)
 ffmpeg installed and added to system PATH
 pip, npm, git installed
 🔌 Backend Setup (Flask)
-# Clone the repository
-git clone https://github.com/99anjalipai/nlp-project.git
-cd backend
 
 # Create a virtual environment and activate it
 python -m venv venv
